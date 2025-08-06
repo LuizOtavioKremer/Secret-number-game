@@ -35,6 +35,7 @@ function verificarChute() {
         tentativas++;
         limparCampo();
     }
+}
 
 function gerarNumeroAleatorio() {
     let numeroEscolhido = parseInt(Math.random() * numeroLimite + 1);
@@ -61,4 +62,5 @@ function reiniciarJogo() {
     tentativas = 1;
     exibirMensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled', true);
+
 }
